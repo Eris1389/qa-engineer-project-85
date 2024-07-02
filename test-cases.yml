@@ -145,6 +145,20 @@
     - Выдираем iPhone SE,iPhone XR,Samsung Galaxy A71
   expected-result: |
     Сайт адаптируется под мобильную версию
+    
+- summary: |
+    Иконка переключения языка
+  requirement: |
+    В шапке профеля должен быть иконка перевода языка
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем кнопку иконку
+    - Выбираем язык
+  expected-result: 
+    В шапке профеля есть иконка перевода
 
 - summary: |
     Перевод языка на English
@@ -155,7 +169,7 @@
   test-data: |
     empty
   steps:
-    - Нажимаем кнопку "Язык"
+    - Нажимаем иконку "Перевода языка"
     - Выбираем English
   expected-result: 
     Весь сайт переведен 
@@ -169,7 +183,7 @@
   test-data: |
     empty
   steps:
-    - Нажимаем кнопку "Language"
+    - Нажимаем иконку "Перевода языка"
     - Выбираем Русский
   expected-result: |
     Весь сайт переведен
