@@ -1,0 +1,48 @@
+---
+- summary: |
+    Соревнование с другим пользователем в решении задач
+  status: pass 
+
+- summary: |
+    Соревнование с другом по ссылке в решении задач
+  status: pass
+
+- summary: |
+    Соревнование с ботом в решении задач
+  status: pass
+
+- summary: |
+    Возможность видеть написание кода друг у друга
+  status: pass
+
+- summary: |
+   Регистрация пользователя
+  status: pass
+
+- summary: |
+    Вход в учетную запись
+  status: pass
+
+- summary: |
+    Вход в систему с помощью Github
+  status: pass
+
+- summary: |
+    Вход в систему с помощью Discord
+  status: pass
+
+- summary: |
+    Проверка сайта на мобильном устройстве
+  status: pass
+
+- summary: |
+   Иконка переключения языка
+  status: fail
+
+- summary: |
+    Перевод языка на English
+  status: fail
+
+- summary: |
+    Перевод языка на Русский
+  status: fail
