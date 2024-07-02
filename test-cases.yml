@@ -1,0 +1,175 @@
+---
+- summary: |
+    Соревнование  с другим пользователем в решении задач
+  requirement: |
+    Пользователи должны иметь возможность соревноваться с другим пользователем в решении задач
+  prerequisites: |
+   Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Создать игру “
+    - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
+    - Выбираем тип игры: с другим пользователем
+    - Выбирайте задачу по названию или тегам
+    - Нажимаем на кнопку “Создайте битву“
+  expected-result: |
+    Соревнование  с другим пользователем создано
+
+- summary: |
+    Соревнование  с другом по ссылке в решении задач
+  requirement: |
+    Пользователи должны иметь возможность игра с другом по ссылке
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby.Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Создать игру “
+    - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
+    - Выбираем тип игры: с другом
+    - Выбирай соперника по ссылке
+    - Выбирайте задачу по названию или тегам
+    - Нажимаем на кнопку “Создайте битву“
+  expected-result: |
+    Соревнование  с другом создано
+
+- summary: |
+    Соревнование  с ботом по ссылке в решении задач
+  requirement: |
+    Пользователи должны иметь возможность игра с ботом.
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Создать игру “
+    - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
+    - Выбираем тип игры: с ботом
+    - Выбирайте задачу по названию или тегам
+    - Нажимаем на кнопку “Создайте битву“
+  expected-result: |
+    Соревнование с ботом создано
+
+- summary: |
+    Возможность видеть написание кода друг у друга
+  requirement: |
+    Пользователи должны иметь возможность видеть написание кода друг у друга
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Создать игру “
+    - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
+    - Выбираем тип игры: с другом
+    - Выбирай соперника по ссылке
+    - Выбирайте задачу по названию или тегам
+    - Нажимаем на кнопку “Создайте битву“
+    - Пишем код и видим код друга
+  expected-result: |
+    Пользователи видят написание кода друг у друга
+
+- summary: |
+    Регистрация пользователя 
+  requirement: |
+    Пользователи должны иметь возможность зарегистрироваться  
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “sign up“ ( Регистрация)
+    - Вводим  Ник,
+    - Вводим Электронную почту
+    - Вводим Пароль
+    - Вводим Подтверждение пароля
+    - Нажимаем на кнопку “submit“ (Подтвердить)
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Вход в учетную запись
+  requirement: |
+    Пользователи должны иметь возможность войти в учетную запись
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    Тестовые данные
+    Email  =croissant@gmail.com  Пароль = password
+  steps:
+    - Нажимаем на кнопку “sign up“ ( Регистрация)
+    - Вводим Email
+    - Вводим пароль
+    - Нажимаем на кнопку “submit“ (Подтвердить)
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Вход в систему с помощью Github
+  requirement: |
+    Пользователи должны иметь возможность войти в  систему с помощью Github
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Войдите в систему с помощью Github”
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Вход в систему с помощью Discord
+  requirement: |
+    Пользователи должны иметь возможность войти в  систему с помощью Discord 
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем на кнопку “Войдите в систему с помощью Discord”
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Проверка сайта на мобильном устройстве  
+  requirement: |
+    Сайт должен должен адаптироваться  под мобильное устройство
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу    
+  test-data: |
+    empty
+  steps:
+    - Открываем "DevTools"
+    - Нажимаем на значок "Переключение панели инструментов устройств"
+    - Выдираем iPhone SE,iPhone XR,Samsung Galaxy A71
+  expected-result: |
+    Сайт адаптируется под мобильную версию
+
+- summary: |
+    Перевод языка на English
+  requirement: |
+    При переводе языка должен происходить полный перевод сайта,
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем кнопку "Язык"
+    - Выбираем English
+  expected-result: 
+    Весь сайт переведен 
+    
+- summary: |
+    Перевод языка на Русский
+  requirement: 
+    При переводе языка должен происходить полный перевод сайта
+  prerequisites: |
+    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby. Попадаем на главную страницу
+  test-data: |
+    empty
+  steps:
+    - Нажимаем кнопку "Language"
+    - Выбираем Русский
+  expected-result: |
+    Весь сайт переведен
