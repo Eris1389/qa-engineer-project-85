@@ -8,6 +8,7 @@
   test-data: |
     empty
   steps:
+    - Авторизации
     - Нажимаем на кнопку “Создать игру “
     - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
     - Выбираем тип игры: с другим пользователем
@@ -25,6 +26,7 @@
   test-data: |
     empty
   steps:
+    - Авторизации
     - Нажимаем на кнопку “Создать игру “
     - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
     - Выбираем тип игры: с другом
@@ -43,6 +45,7 @@
   test-data: |
     empty
   steps:
+    - Авторизации
     - Нажимаем на кнопку “Создать игру “
     - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
     - Выбираем тип игры: с ботом
@@ -60,6 +63,7 @@
   test-data: |
     empty
   steps:
+    - Авторизации
     - Нажимаем на кнопку “Создать игру “
     - Выбираем уровень сложности игры: Одна, две, три , четыре звезды
     - Выбираем тип игры: с другом
@@ -77,7 +81,7 @@
   prerequisites: |
     Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
   test-data: |
-    empty
+   Ник = KIT-1245, Email  = KIT@gmail.com, Пароль = KIT13072002, Подтверждение пароля = KIT13072002
   steps:
     - Нажимаем на кнопку “sign up“ ( Регистрация)
     - Вводим  Ник,
@@ -93,10 +97,10 @@
   requirement: |
     Пользователи должны иметь возможность войти в учетную запись
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     Тестовые данные
-    Email  =croissant@gmail.com  Пароль = password
+    Email  = KIT@gmail.com, Пароль = KIT13072002
   steps:
     - Нажимаем на кнопку “sign up“ ( Регистрация)
     - Вводим Email
@@ -110,7 +114,7 @@
   requirement: |
     Пользователи должны иметь возможность войти в  систему с помощью Github
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
@@ -123,7 +127,7 @@
   requirement: |
     Пользователи должны иметь возможность войти в  систему с помощью Discord 
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
@@ -132,58 +136,115 @@
     Пользователь должен попасть на главную страницу
 
 - summary: |
-    Проверка сайта на мобильном устройстве  
+    Отображание интерфейса сайта на мобильном устройстве  
   requirement: |
-    Сайт должен должен адаптироваться  под мобильное устройство
+    Сайт должен адаптироваться  под мобильное устройство
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby    
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
+    - Авторизации
     - Открываем "DevTools"
     - Нажимаем на значок "Переключение панели инструментов устройств"
     - Выдираем iPhone SE,iPhone XR,Samsung Galaxy A71
   expected-result: |
-    Сайт адаптируется под мобильную версию
+    Сайт адаптируется под мобильное устройство 
     
 - summary: |
-    Иконка переключения языка на главной странице
+    Иконка переключения языков в меню игры с описанием задачи  
   requirement: |
-    В шапке профеля  главной странице должен быть иконка перевода языка
+    В меню игры с описанием задачи должно быль иконка переключения языков
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
-    - Нажимаем кнопку иконку
+    - Авторизации
+    - Создаем игру
+    - Нажимаем кнопку иконку переключения языка
     - Выбираем язык
   expected-result: 
-    В шапке профеля есть иконка перевода
+  Иконка переключения языков есть в меню игры 
 
 - summary: |
-    Перевод языка на English
+    Перевод языка на English в меню игры с описанием задачи
   requirement: |
-    При переводе языка должен происходить полный перевод сайта,
+    При переводе языка должен происходить перевод описания задачи
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
+    - Создаем игру
     - Нажимаем иконку "Перевода языка"
     - Выбираем English
   expected-result: 
     Весь сайт переведен 
     
 - summary: |
-    Перевод языка на Русский
+    Перевод языка на Русский в меню игры с описанием задачи
   requirement: 
-    При переводе языка должен происходить полный перевод сайта
+    При переводе языка должен происходить перевод описания задачи
   prerequisites: |
-    Открываем страницу в браузере https://codebattle.hexlet.io/?_gl=1*1nab152*_ga*MTc0NDI5NzI2NS4xNzEyNzYxMjY1*_ga_PM3R85EKHN*MTcxOTkzNTYxMS4xODAuMS4xNzE5OTM1NjczLjAuMC4w*_ga_WWGZ6EVHEY*MTcxOTkzNTYxMS4xNzAuMS4xNzE5OTM1NjEzLjAuMC4w#lobby
+     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
   steps:
+    - Создаем игру
     - Нажимаем иконку "Перевода языка"
     - Выбираем Русский
   expected-result: |
     Весь сайт переведен
+
+- summary: |
+    Изменения настроек “Your name”
+  requirement: |
+    При изменении настроек “Your name”, он должен менятся 
+  prerequisites: |
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
+  test-data: |
+    empty
+  steps:
+    - Авторизации
+    - Переходим в настройки
+    - Вводим новое имя
+    - Нажимаем на кнопку save
+    - Перезагружаем страницу
+  expected-result: 
+  Your name изменился на новый ник
+
+- summary: |
+    Изменения настроек “Your weapon”
+  requirement: |
+    При изменении настроек “Your weapon”, он должен менятся на выбранный
+  prerequisites: >
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке
+    - https://codebattle.hexlet.io/
+  test-data: |
+    empty
+  steps:
+    - Авторизации
+    - Переходим в настройки
+    - Выбираем  нужный “Your weapon”
+    - Нажимаем на кнопку save
+    - Перезагружаем страницу
+  expected-result: 
+    Your weapon изменился на выбранный язый
+
+- summary: |
+    Изменения настроек "типа звука"
+  requirement: |
+    При изменении настроек типа звука, он должен менятся на выбранный 
+  prerequisites: |
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
+  test-data: |
+    empty
+  steps:
+    - Авторизации
+    - Переходим в настройки
+    - Выбираем  нужный тип звука
+    - Нажимаем на кнопку save
+    - Перезагружаем страницу
+  expected-result: 
+    Тип звука изменился на выбранный 
