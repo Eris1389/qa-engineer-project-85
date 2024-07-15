@@ -231,11 +231,13 @@
   prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
-    empty
+    iPhone SE, iPhone XR, Samsung Galaxy A71
   steps:
     - Открываем "DevTools"
     - Нажимаем на значок "Переключение панели инструментов устройств"
-    - Выдираем iPhone SE,iPhone XR,Samsung Galaxy A71
+    - Выдираем раздел "Lobby"
+    - Выдираем раздел "Tournaments"
+    - Выдираем раздел "History"
   expected-result: |
     Сайт адаптируется под мобильное устройство 
 
