@@ -56,11 +56,11 @@
   status: pass
   
 - summary: |
-    Изменения настроек “Your name”
+    Изменения настроек Your name
   status: pass
   
 - summary: |
-    Изменения настроек “Your weapon”
+    Изменения настроек Your weapon
   status: pass
   
 - summary: |
@@ -80,5 +80,5 @@
   status: fail
   
 - summary: |
-    Изменения настроек "Select sound type" 
+    Изменения настроек Select sound type
   status: fail
