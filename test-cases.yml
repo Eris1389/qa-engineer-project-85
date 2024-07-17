@@ -131,7 +131,7 @@
   test-data: |
     Название игры = rest_area Язык программирования = Node.js 20/11/1
   steps:
-      empty
+    empty
   expected-result: |
     Высветилась иконка со звуком и с надписью "Проигрыша"
     
