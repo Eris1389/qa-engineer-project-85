@@ -1,9 +1,9 @@
 ---
 - summary: |
     Соревнование с другим пользователем в решении задач
-  requirement: >
+  requirement: |
     Пользователи должны иметь возможность соревноваться с другим пользователем в решении задач
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
@@ -13,14 +13,14 @@
     - Выбираем тип игры - с другим пользователем
     - Выбирайте задачу по названию или тегам
     - Нажимаем на кнопку "Создайте битву"
-  expected-result: >
+  expected-result: |
     Ждем пока кто-нибудь присоединится сам или отправляем приглашение по ссылке ниже. Соревнование  с другим пользователем создано
     
 - summary: |
     Соревнование с другом по ссылке в решении задач
   requirement: |
     Пользователи должны иметь возможность игра с другом по ссылке
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
@@ -38,7 +38,7 @@
     Присоединение к игре с другом
   requirement: |
     Пользователь должен иметь возможность принять приглашение друга на битву
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Битва создана другим игроком
   test-data: |
     empty
@@ -52,7 +52,7 @@
     Отклонить приглашение на битву с другом
   requirement: |
     Пользователь должен иметь возможность отклонить приглашение друга на битву
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Битва создана другим игроком
   test-data: |
     empty
@@ -66,7 +66,7 @@
     Соревнование с ботом в решении задач
   requirement: |
     Пользователи должны иметь возможность игра с ботом
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
@@ -83,7 +83,7 @@
     Возможность видеть написание кода друг у друга
   requirement: |
     Пользователи должны иметь возможность видеть написание кода друг у друга
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке- https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Создана игра с другом. Идет игра со вторым аккаунтом Eris vs KIT
   test-data: |
     Название игры = rest_area Язык программирования = Node.js 20/11/1
@@ -104,7 +104,7 @@
     Победа в битве
   requirement: |
     При победе в  битве должна высветится иконка с надписью о победе
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Битва создана с ботом
   test-data: |
     Название игры = rest_area Язык программирования = Node.js 20/11/1
@@ -126,7 +126,7 @@
     Поражение по таймеру в битве
   requirement: |
     При поражении в  битве должна высветится иконка с надписью о проигрыше
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Битва создана с ботом
   test-data: |
     Название игры = rest_area Язык программирования = Node.js 20/11/1
@@ -139,7 +139,7 @@
     Сдаться в битве
   requirement: |
     Пользователь должен иметь возможность сдаться
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Битва создана с ботом
   test-data: |
     Название игры = rest_area Язык программирования = Node.js 20/11/1
@@ -153,9 +153,9 @@
     Регистрация пользователя с валидными данными
   requirement: |
     Пользователи должны иметь возможность зарегистрироваться
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
-  test-data: >
+  test-data: |
     Ник = KIT-1245 Email = KIT@gmail.com Пароль = KIT13072002
     Подтверждение пароля = KIT13072002
   steps:
@@ -172,10 +172,10 @@
     Регистрация пользователя с невалидным Email
   requirement: |
     Пользователи должны иметь возможность зарегистрироваться
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке
     - https://codebattle.hexlet.io/
-  test-data: >
+  test-data: |
     Ник = Ric Email = ricмапцв@mail.ru Пароль = ric12344990 Подтверждение пароля = ric12344990
   steps:
     - Нажимаем на кнопку "sign up"
@@ -191,7 +191,7 @@
     Регистрация пользователя с невалидным паролем
   requirement: |
     Пользователи должны иметь возможность зарегистрироваться
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     Ник = Ric Email = ric@mail.ru Пароль = ric1 Подтверждение пароля = ric1
@@ -209,7 +209,7 @@
     Вход в учетную запись
   requirement: |
     Пользователи должны иметь возможность войти в учетную запись
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке
     - https://codebattle.hexlet.io/
   test-data: |
@@ -227,7 +227,7 @@
     Вход в систему с помощью Github
   requirement: |
     Пользователи должны иметь возможность войти в  систему с помощью Github
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
@@ -241,7 +241,7 @@
     Вход в систему с помощью Discord
   requirement: |
     Пользователи должны иметь возможность войти в  систему с помощью Discord 
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
@@ -255,7 +255,7 @@
     Восстановление пароля с невалидным Email
   requirement: |
     Пользователи должны иметь возможность восстановить пароль
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     Email =  ricпаы@mail.ru
@@ -271,7 +271,7 @@
     Восстановление пароля с валидным Email
   requirement: |
     Пользователи должны иметь возможность восстановить пароль
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     Email = KIT@gmail.com
@@ -287,7 +287,7 @@
     Отображение интерфейса сайта на мобильном устройстве
   requirement: |
     Сайт должен адаптироваться  под мобильное устройство
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     iPhone SE, iPhone XR, Samsung Galaxy A71
@@ -304,7 +304,7 @@
     Перевод языка на English в меню игры с описанием задачи
   requirement: |
     При переводе языка должен происходить перевод описания задачи
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
@@ -319,7 +319,7 @@
     Перевод языка на Русский в меню игры с описанием задачи
   requirement: |
     При переводе языка должен происходить перевод описания задачи
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/
   test-data: |
     empty
@@ -334,7 +334,7 @@
     Изменения настроек “Your name”
   requirement: |
     При изменении настроек “Your name”, он должен менятся на новый ник
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
@@ -349,9 +349,9 @@
     
 - summary: |
     Изменения настроек “Your weapon”
-  requirement: >
+  requirement: |
     При изменении настроек “Your weapon”, он должен менятся на выбранный язык программирования
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
@@ -373,7 +373,7 @@
     Изменения настроек "Select sound type"
   requirement: |
     При изменении настроек типа звука, он должен менятся на выбранный тип звука
-  prerequisites: >
+  prerequisites: |
     Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован
   test-data: |
     empty
