@@ -26,11 +26,11 @@
 - summary: |
     Победа в битве
   status: pass
-
+  
 - summary: |
     Поражение по таймеру в битве
   status: pass
-
+  
 - summary: |
     Сдаться в битве
   status: pass
