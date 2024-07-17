@@ -84,18 +84,18 @@
   requirement: |
     Пользователи должны иметь возможность видеть написание кода друг у друга
   prerequisites: |
-    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке - https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Создана игра с другом. Идет игра со вторым аккаунтом Eris vs KIT
+    Открыть главную страницу веб-сайта CodeBattle по следующей ссылке- https://codebattle.hexlet.io/. Пользователь должен быть авторизован. Создана игра с другом. Идет игра со вторым аккаунтом Eris vs KIT
   test-data: |
-    Название игры = rest_area Язык программирования = Node.js 20/11/1 
+    Название игры = rest_area Язык программирования = Node.js 20/11/1
     Код = const _ = require("lodash");
-const R = require("rambda");
+     const R = require("rambda");
 
-const solution = (width, length) => {
-  return width * length;
-};
+     const solution = (width, length) => {
+     return width * length;
+     };
 
-module.exports = solution;
-  steps: 
+      module.exports = solution;
+  steps:
     - Выполняем задание в терминале
   expected-result: |
     Пользователи видят написание кода друг у друга
